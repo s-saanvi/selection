@@ -29,7 +29,7 @@ void generateRandomArray(int arr[], int n)
     }
 int main()
 {
-    int n_values[] = {5000, 10000, 15000, 20000}; // Array of n values
+    int n_values[] = {5000, 10000, 15000, 20000};
     int num_values = sizeof(n_values) / sizeof(n_values[0]);
     double time_taken[num_values];
     for (int i = 0; i < num_values; i++)
